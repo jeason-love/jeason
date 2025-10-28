@@ -40,11 +40,11 @@
         <div class="contact-grid">
             <div class="contact-info">
                 <i class="fas fa-envelope"></i>
-                <p>nepthalem@example.com</p>
+                <p>jeasonlove19@gmail.com</p>
             </div>
             <div class="contact-info">
                 <i class="fas fa-phone"></i>
-                <p>+251 900 000 000</p>
+                <p>+251 939 704 129</p>
             </div>
             <div class="contact-info">
                 <i class="fas fa-map-marker-alt"></i>
@@ -71,6 +71,13 @@
     </footer>
 
     <script src="script.js"></script>
-</body>
+        <script>
+            const menuToggle = document.getElementById('mobile-menu');
+            const navLinks = document.querySelector('.nav-links');
 
+            menuToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+    </script>
+    </body>
 </html>

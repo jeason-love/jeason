@@ -39,7 +39,7 @@
 
         <div class="about-container">
             <div class="about-image">
-                <img src="https://images.unsplash.com/photo-1581090700227-5e3cfc38f2a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
+                <img src="/44f09104-27a7-4273-a798-743ab3620bac.png"
                     alt="Nepthalem Ayele">
             </div>
             <div class="about-content">
@@ -65,6 +65,13 @@
     </footer>
 
     <script src="script.js"></script>
-</body>
+        <script>
+            const menuToggle = document.getElementById('mobile-menu');
+            const navLinks = document.querySelector('.nav-links');
 
+            menuToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+    </script>
+</body> 
 </html>
